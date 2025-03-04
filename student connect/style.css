@@ -1,0 +1,70 @@
+.header{
+    background-color: rgb(26, 4, 14);
+    text-align: center;
+    color: white;
+    padding: 10px 0px 10px;
+}
+.parent{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px 20px;
+    margin: 0px 0px 140px;
+}
+.child1{
+    width: 30%;
+    text-align: center;
+    border: 2px solid black;
+    padding: 0px 20px 0px;
+    height: 350px;
+    margin: 100px 0px 0px;
+}
+.child2{
+    width: 30%;
+    text-align: center;
+    margin: 100px 0px 0px;
+}
+.bot{
+    font-size: 20px;
+    background-color: rgb(148, 114, 114);
+    padding: 10px;
+    border-radius: 10px;
+}
+.footer{
+    background-color: rgb(26, 4, 14);
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.loog{
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 140px;
+}
+.log{
+    text-align: center;
+    border: 2px solid black;
+    width: 40%;
+    margin: 140px 0px 0px;
+    padding: 20px;
+    height: 300px;
+   
+}
+#button{
+    font-size: 20px;
+    background-color: rgb(148, 114, 114);
+    padding: 10px;
+    border-radius: 10px;
+}
+.regis{
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 95px;
+}
+.reg{
+    text-align: center;
+    border: 2px solid black;
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+    margin:100px 0px 0px;
+}

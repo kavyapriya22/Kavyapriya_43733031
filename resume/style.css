@@ -1,0 +1,71 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(26, 4, 14);
+    color: white;
+    width: 90%;
+    margin-inline: auto;
+}
+.child1{
+    width: 30%;
+    text-align:left;
+    margin-left: 30px;
+}
+.child2{
+    width: 10%;
+    text-align: center;
+    margin-block: auto;
+}
+.img{
+    border-radius: 50%;
+}
+.parent{
+    width: 90%;
+    border: 2px solid black;
+    margin-inline: auto;
+    margin-top: 20px;
+    padding: 20px 0px 20px;
+}
+.son1{
+    width: 90%;
+    text-align: center;
+    border: 2px solid black;
+    height: 20%;
+    margin-inline: auto;
+    margin-top: 20px;
+    
+
+}
+.son2{
+    width: 90%;
+    text-align:left;
+    height: 60%;
+    display: flex;
+    margin-inline: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+
+
+}
+.sonchild{
+    width: 48%;
+    border: 2px solid black;
+    padding: 30px 0px 30px 10px;
+    
+}
+.gparent{
+    display: flex;
+    justify-content:space-between;
+    width: 90%;
+    margin-inline: auto;
+
+    
+}
+.daughter{
+    width: 32%;
+    border: 2px solid black;
+    margin-top: 20px;
+    padding:30px 0px 20px 9px;
+    text-align: left;
+}

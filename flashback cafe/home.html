@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ponomar&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>flashback Cafe App</title>
+    
+</head>
+<style>
+    body{
+        margin: 0px; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar{
+        display: flex;
+        width: 100%;
+        height: 50px;
+        background-color: bisque;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+    .navlogo{
+        height: 80%;
+        padding: 0px 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content:start;
+        align-items: center;
+        font-family: "Poppins", sans-serif;
+
+    }
+    .navinfo{
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .navinfo > a { 
+        padding: 5px 10px;
+        margin: 3px;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+
+    }
+    .navsignup{
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    .navsignup > img , .navsignup > button {
+        margin: 10px;
+    }
+    .signbut {
+        background-color: #12121200;
+        padding: 5px 15px;
+        border: 2px solid #121212;
+        border-radius: 10px;
+    }
+    .poster {
+            width: 80%;
+            height: 300px;
+            margin: 40px 0px;
+            border-radius: 20px;
+        }
+        .poster-info {
+            width: 100%;
+            height: 300px;
+            border-radius: 20px;
+            margin-top: -304px;
+            color: #090909;
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items:center;
+        }
+
+        .poster-info > h2 {
+            width: 50%;
+            text-align:center;
+            font-size: 30px;
+        }
+        .poster-info > p {
+            width: 50%;
+            text-align:center;
+            font-size: 20px;
+            
+        }
+    @media only screen and (max-width: 600px){
+        .navinfo, .poster-info > p{
+            display: none;
+
+        }
+        
+    }
+    .explore{
+        width: 80%;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction:column;
+        justify-content:space-around;
+        border-bottom: 1.5px solid black;
+        text-align:start;
+    }
+    .explore-items{
+        width: 100%;
+        height: 190px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 0px;
+        overflow-y: hidden;
+    }
+    .food-items{
+        width: 200px;
+        height: 100%;
+        margin-right: 20px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        
+
+    }
+    .food-items > img{
+        border-radius: 50%;
+    }
+
+
+</style>
+<body>
+    <div class="navbar">
+        <div class="navlogo">
+            <h2>Flashback Cafe</h2>
+        </div>
+        <div class="navinfo">
+            <a href="">Home</a>
+            <a href="">Menu</a>
+            <a href="">Contact us</a>
+        </div>
+        <div class="navsignup">
+            <img src="./image/icons8-bag-100 (1).png"/>
+            <button class="signbut">Sign up</button>
+        </div>
+    </div>
+    <div class="poster">
+        <img src="./image/poster1.jpg" style="object-fit:cover; width: 100%; height: 100%; border-radius: 20px;"/>
+        <div class="poster-info">
+            <h2>Enjoy Your Coffee</h2>
+            <p>Choose from a diverse menu featuring a delectable array of dishes crafted with the finest ingredients and culinary expertise.</p>
+            <button class="signbut" style="background-color: #3c0909; color: whitesmoke;">View Menu</button>
+        </div>
+    </div>
+    <div class="explore">
+        <h2>Explore Our Menu</h2>
+        <p>a cozy space where you can relax, unwind, and enjoy a warm atmosphere. Whether you're here to enjoy a quiet moment alone, catch up with friends, or simply take a break, our cafe offers the perfect setting for all.</p>
+        <div class="explore-items">
+            <div class="food-items">
+                <img src="./image/cappuccino.jpg" width="100px"; height="100%"/>
+                <p>Cappuccino</p>
+            </div>
+            <div class="food-items">
+                <img src="./image/Iced Latte.jpg" width="100px"; height="100%"/>
+                <p>Iced Latte</p>
+            </div>
+            <div class="food-items">
+                <img src="./image/Mocha.jpg" width="100px"; height="100%"/>
+                <p>Mocha</p>
+            </div>
+            <div class="food-items">
+                <img src="./image/Americano.jpg" width="100px"; height="100%"/>
+                <p>Americano</p>
+            </div>
+            <div class="food-items">
+                <img src="./image/Turmeric Latte.webp" width="100px"; height="100%"/>
+                <p>Turmeric Latte</p>
+            </div>
+            <div class="food-items">
+                <img src="./image/Dalgona Coffee.jpg" width="100px"; height="100%"/>
+                <p>Dalgona</p>
+            </div>
+            <div class="food-items">
+                <img src="./image/Honey Latte.jpg" width="100px"; height="73%"/>
+                <p>Honey Latte</p>
+            </div>
+            <div class="food-items">
+                <img src="./image/Affogato.avif" width="100px"; height="100%"/>
+                <p>Affogato</p>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
